@@ -11,7 +11,7 @@ For reference, here's Beau Carnes' repo: https://github.com/beaucarnes/fcc-proje
 * server: Node.js
 * client: React
 * client-server communication: WebSockets
-* to manage data: Redux
+* to [manage data](https://blog.logrocket.com/why-use-redux-reasons-with-clear-examples-d21bffd5835/): Redux
 * to manage side-effects: Redux-Saga
 
 ## Major Steps
