@@ -25,3 +25,12 @@ Make sure you're inside the right folder. For me, `chat-app-fcc-react-redux` is 
 ```bash
 create-react-app chat
 ```
+
+```bash
+cd chat
+npm start
+```
+
+`http://localhost:3000/` should open up.
+
+The key files to start editing first are `chat/src/App.css` and `chat/src/App.js`.
