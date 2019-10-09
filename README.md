@@ -20,7 +20,7 @@ For reference, here's Beau Carnes' repo: https://github.com/beaucarnes/fcc-proje
 npm install -g create-react-app
 ```
 
-Make sure you're inside the right folder. For me, `chat-app-fcc-react-redux` is the name of my parent folder. The following bash command will create a folder named `chat`, with a `package.json` inside it:
+Make sure you're inside the right folder. For me, `chat-app-fcc-react-redux` is the name of my parent folder. The following bash command will create a folder named `chat`, with a the actual project inside it:
 
 ```bash
 create-react-app chat
