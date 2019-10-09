@@ -13,3 +13,15 @@ For reference, here's Beau Carnes' repo: https://github.com/beaucarnes/fcc-proje
 * client-server communication: WebSockets
 * to manage data: Redux
 * to manage side-effects: Redux-Saga
+
+## Major Steps
+
+```bash
+npm install -g create-react-app
+```
+
+Make sure you're inside the right folder. For me, `chat-app-fcc-react-redux` is the name of my parent folder. The following bash command will create a folder named `chat`, with a `package.json` inside it:
+
+```bash
+create-react-app chat
+```
