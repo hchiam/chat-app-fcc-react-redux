@@ -46,3 +46,23 @@ Inside the `chat` folder:
 ```bash
 npm install redux react-redux --save
 ```
+
+Edit `src/index.js` to initialize Redux.
+
+Redux has "reducers", "store", and "actions".
+
+Redux uses "actions" to indirectly change state, since the "store" is read-only. "Actions" get dispatched, and "reducers" actually create the new state.
+
+Inside `src` folder, create:
+
+```
+src
+--actions
+----index.js
+--constants
+----ActionTypes.js
+--reducers
+----index.js
+----messages.js
+----users.js
+```
