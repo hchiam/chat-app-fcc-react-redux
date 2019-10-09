@@ -16,9 +16,13 @@ For reference, here's Beau Carnes' repo: https://github.com/beaucarnes/fcc-proje
 
 ## Major Steps
 
+### Install quick React web app setup
+
 ```bash
 npm install -g create-react-app
 ```
+
+### Use quick React web app setup
 
 Make sure you're inside the right folder. For me, `chat-app-fcc-react-redux` is the name of my parent folder. The following bash command will create a folder named `chat`, with a the actual project inside it:
 
@@ -34,3 +38,11 @@ npm start
 `http://localhost:3000/` should open up.
 
 The key files to start editing first are `chat/src/App.css` and `chat/src/App.js`.
+
+### Install Redux
+
+Inside the `chat` folder:
+
+```bash
+npm install redux react-redux --save
+```
