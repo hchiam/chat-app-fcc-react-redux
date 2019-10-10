@@ -12,7 +12,7 @@ For reference, here's Beau Carnes' repo: <https://github.com/beaucarnes/fcc-proj
 
 [Major Steps](https://github.com/hchiam/chat-app-fcc-react-redux#Major-Steps)
 
-* [Install quick React web app setup](https://github.com/hchiam/chat-app-fcc-react-redux#Install-quick-React-web-app-setup)
+* [1) Install quick React web app setup](https://github.com/hchiam/chat-app-fcc-react-redux#1-Install-quick-React-web-app-setup)
 
 * [Use quick React web app setup](https://github.com/hchiam/chat-app-fcc-react-redux#Use-quick-React-web-app-setup)
 
@@ -40,7 +40,7 @@ For reference, here's Beau Carnes' repo: <https://github.com/beaucarnes/fcc-proj
 
 ## Major Steps
 
-### Install quick React web app setup
+### 1) Install quick React web app setup
 
 ```bash
 npm install -g create-react-app
