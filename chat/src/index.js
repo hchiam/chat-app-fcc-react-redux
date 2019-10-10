@@ -9,6 +9,10 @@ import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import chat from './reducers'; // our custom Redux reducer
 import { addUser } from './actions'; // one of our custom actions
+
+// set up web socket to communicate with network:
+import { setupSocket } from './sockets'
+
 const store = createStore(chat);
 
 store.dispatch(addUser('Me'));

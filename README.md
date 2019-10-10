@@ -100,3 +100,21 @@ We'll connect the components and containers with React-Redux.
 i.e.: **components** -> **containers** -> `App.js`
 
 Containers also connect components to redux state/actions.
+
+### WebSocket Server to Communicate with Network
+
+Inside `chat` folder, create server:
+
+```text
+chat
+--server
+----app.js
+```
+
+Inside `src` folder, create sockets info:
+
+```text
+src
+--sockets
+----index.js
+```
