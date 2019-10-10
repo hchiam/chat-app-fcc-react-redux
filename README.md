@@ -94,3 +94,9 @@ src
 ```
 
 We'll connect the components and containers with React-Redux.
+
+`App.js` will import the containers to use them in the main app.
+
+i.e.: **components** -> **containers** -> `App.js`
+
+Containers also connect components to redux state/actions.
