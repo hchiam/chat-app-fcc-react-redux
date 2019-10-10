@@ -210,6 +210,8 @@ Run client (`chat` folder):
 
 * `npm start`
 
-Run server (`chat/server` folder):
+Run server (`chat/server` folder) in another CLI tab:
 
 * `node app.js`
+
+Hit `control+C` to exit.
