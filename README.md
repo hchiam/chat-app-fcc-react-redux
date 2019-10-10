@@ -103,6 +103,12 @@ Containers also connect components to redux state/actions.
 
 ### WebSocket Server to Communicate with Network
 
+Inside the `chat` folder:
+
+```bash
+npm install ws --save
+```
+
 Inside `chat` folder, create server:
 
 ```text
@@ -153,4 +159,21 @@ Inside `src` folder, create utility:
 src
 --utils
 ----name.js
+```
+
+### Run Backend Server at the Same Time
+
+Inside the `chat` folder: **(run JUST ONCE, and ONLY FOR TESTING LOCALLY)**
+
+```bash
+sudo chmod 0777 ./server/app.js
+```
+
+(Aside: `chmod 0777` means [everyone can read, write, and execute](https://www.maketecheasier.com/file-permissions-what-does-chmod-777-means/).)
+
+Now to actually run the server:
+
+```bash
+cd server
+node app.js
 ```

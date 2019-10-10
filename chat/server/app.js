@@ -58,8 +58,10 @@ webSocketServer.on('connection', (ws) => {
 
   // when client disconnects:
   ws.on('close', () => {
-    // remove user from users list
+    // remove first user from users list
     users.splice(index, 1);
+    // TODO: actually remove the correct client
+
     broadcast({
       type: 'USERS_LIST',
       users,
