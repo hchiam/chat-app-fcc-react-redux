@@ -66,3 +66,31 @@ src
 ----messages.js
 ----users.js
 ```
+
+### Create React Components and Containers
+
+We need to implement the custom components used in the file `src/App.js`.
+
+Inside `src` folder, create components:
+
+```
+src
+--components
+----AddMessage.js
+----Message.js
+----MessagesList.js
+----SideBar.js
+```
+
+Inside `src` folder, create containers:
+
+```
+src
+--containers
+----AddMessage.js
+----Message.js
+----MessagesList.js
+----SideBar.js
+```
+
+We'll connect the components and containers with React-Redux.
