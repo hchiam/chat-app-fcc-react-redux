@@ -8,7 +8,10 @@ import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import chat from './reducers'; // our custom Redux reducer
+import { addUser } from './actions'; // one of our custom actions
 const store = createStore(chat);
+
+store.dispatch(addUser('Me'));
 
 ReactDOM.render(
   // wrap App in Redux Provider:
