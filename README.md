@@ -14,19 +14,19 @@ For reference, here's Beau Carnes' repo: <https://github.com/beaucarnes/fcc-proj
 
 * [1) Install quick React web app setup](https://github.com/hchiam/chat-app-fcc-react-redux#1-Install-quick-React-web-app-setup)
 
-* [Use quick React web app setup](https://github.com/hchiam/chat-app-fcc-react-redux#Use-quick-React-web-app-setup)
+* [2) Use quick React web app setup](https://github.com/hchiam/chat-app-fcc-react-redux#2-Use-quick-React-web-app-setup)
 
-* [Install Redux](https://github.com/hchiam/chat-app-fcc-react-redux#Install-Redux)
+* [3) Install Redux](https://github.com/hchiam/chat-app-fcc-react-redux#3-Install-Redux)
 
-* [Create React Components and Containers](https://github.com/hchiam/chat-app-fcc-react-redux#Create-React-Components-and-Containers)
+* [4) Create React Components and Containers](https://github.com/hchiam/chat-app-fcc-react-redux#4-Create-React-Components-and-Containers)
 
-* [WebSocket Server to Communicate with Network](https://github.com/hchiam/chat-app-fcc-react-redux#WebSocket-Server-to-Communicate-with-Network)
+* [5) WebSocket Server to Communicate with Network](https://github.com/hchiam/chat-app-fcc-react-redux#5-WebSocket-Server-to-Communicate-with-Network)
 
-* [Install Redux-Saga](https://github.com/hchiam/chat-app-fcc-react-redux#Install-Redux-Saga)
+* [6) Install Redux-Saga](https://github.com/hchiam/chat-app-fcc-react-redux#6-Install-Redux-Saga)
 
-* [Use Chance as Username Generator](https://github.com/hchiam/chat-app-fcc-react-redux#Use-Chance-as-Username-Generator)
+* [7) Use Chance as Username Generator](https://github.com/hchiam/chat-app-fcc-react-redux#7-Use-Chance-as-Username-Generator)
 
-* [Run Backend Server at the Same Time](https://github.com/hchiam/chat-app-fcc-react-redux#Run-Backend-Server-at-the-Same-Time)
+* [8) Run Backend Server at the Same Time](https://github.com/hchiam/chat-app-fcc-react-redux#8-Run-Backend-Server-at-the-Same-Time)
 
 [Quick Review](https://github.com/hchiam/chat-app-fcc-react-redux#Quick-Review)
 
@@ -46,7 +46,7 @@ For reference, here's Beau Carnes' repo: <https://github.com/beaucarnes/fcc-proj
 npm install -g create-react-app
 ```
 
-### Use quick React web app setup
+### 2) Use quick React web app setup
 
 Make sure you're inside the right folder. For me, `chat-app-fcc-react-redux` is the name of my parent folder. The following bash command will create a folder named `chat`, with a the actual project inside it:
 
@@ -63,7 +63,7 @@ npm start
 
 The key files to start editing first are `chat/src/App.css` and `chat/src/App.js`.
 
-### Install Redux
+### 3) Install Redux
 
 Inside the `chat` folder:
 
@@ -91,7 +91,7 @@ src
 ----users.js
 ```
 
-### Create React Components and Containers
+### 4) Create React Components and Containers
 
 We need to implement the custom components used in the file `src/App.js`.
 
@@ -125,7 +125,7 @@ i.e.: **components** -> **containers** -> `App.js`
 
 Containers also connect components to redux state/actions.
 
-### WebSocket Server to Communicate with Network
+### 5) WebSocket Server to Communicate with Network
 
 Inside the `chat` folder:
 
@@ -149,7 +149,7 @@ src
 ----index.js
 ```
 
-### Install Redux-Saga
+### 6) Install Redux-Saga
 
 Inside the `chat` folder:
 
@@ -169,7 +169,7 @@ src
 ----index.js
 ```
 
-### Use Chance as Username Generator
+### 7) Use Chance as Username Generator
 
 Inside the `chat` folder:
 
@@ -185,7 +185,7 @@ src
 ----name.js
 ```
 
-### Run Backend Server at the Same Time
+### 8) Run Backend Server at the Same Time
 
 Inside the `chat` folder: **(run JUST ONCE, and ONLY FOR TESTING LOCALLY)**
 
