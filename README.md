@@ -177,3 +177,13 @@ Now to actually run the server:
 cd server
 node app.js
 ```
+
+### Quick Review
+
+Run client (`chat` folder):
+
+* `npm start`
+
+Run server (`chat/server` folder):
+
+* `node app.js`
