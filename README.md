@@ -6,6 +6,30 @@ Learning to build a chat app with React and Redux, using a [Free Code Camp tutor
 
 For reference, here's Beau Carnes' repo: <https://github.com/beaucarnes/fcc-project-tutorials/tree/master/chat>
 
+## Table of Contents
+
+[Major Pieces](https://github.com/hchiam/chat-app-fcc-react-redux#Major-Pieces)
+
+[Major Steps](https://github.com/hchiam/chat-app-fcc-react-redux#Major-Steps)
+
+* [Install quick React web app setup](https://github.com/hchiam/chat-app-fcc-react-redux#Install-quick-React-web-app-setup)
+
+* [Use quick React web app setup](https://github.com/hchiam/chat-app-fcc-react-redux#Use-quick-React-web-app-setup)
+
+* [Install Redux](https://github.com/hchiam/chat-app-fcc-react-redux#Install-Redux)
+
+* [Create React Components and Containers](https://github.com/hchiam/chat-app-fcc-react-redux#Create-React-Components-and-Containers)
+
+* [WebSocket Server to Communicate with Network](https://github.com/hchiam/chat-app-fcc-react-redux#WebSocket-Server-to-Communicate-with-Network)
+
+* [Install Redux-Saga](https://github.com/hchiam/chat-app-fcc-react-redux#Install-Redux-Saga)
+
+* [Use Chance as Username Generator](https://github.com/hchiam/chat-app-fcc-react-redux#Use-Chance-as-Username-Generator)
+
+* [Run Backend Server at the Same Time](https://github.com/hchiam/chat-app-fcc-react-redux#Run-Backend-Server-at-the-Same-Time)
+
+[Quick Review](https://github.com/hchiam/chat-app-fcc-react-redux#Quick-Review)
+
 ## Major Pieces
 
 * server: Node.js
@@ -178,7 +202,7 @@ cd server
 node app.js
 ```
 
-### Quick Review
+## Quick Review
 
 Run client (`chat` folder):
 
