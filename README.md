@@ -1,6 +1,6 @@
 # chat-app-fcc-react-redux
 
-Just one of the things I'm learning. https://github.com/hchiam/learning
+Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 Learning to build a chat app with React and Redux, using a [Free Code Camp tutorial](https://www.youtube.com/watch?v=x_fHXt9V3zQ).
 
@@ -55,7 +55,7 @@ Redux uses "actions" to indirectly change state, since the "store" is read-only.
 
 Inside `src` folder, create:
 
-```
+```text
 src
 --actions
 ----index.js
@@ -73,7 +73,7 @@ We need to implement the custom components used in the file `src/App.js`.
 
 Inside `src` folder, create components:
 
-```
+```text
 src
 --components
 ----AddMessage.js
@@ -84,7 +84,7 @@ src
 
 Inside `src` folder, create containers:
 
-```
+```text
 src
 --containers
 ----AddMessage.js
