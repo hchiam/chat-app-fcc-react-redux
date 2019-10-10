@@ -204,7 +204,7 @@ node app.js
 
 ## Quick Review
 
-`npm install` to get all dependencies.
+To get all dependencies, run `npm install` inside the `chat` folder.
 
 Run client (`chat` folder):
 
