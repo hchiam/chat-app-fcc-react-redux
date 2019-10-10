@@ -4,18 +4,33 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-// initialize Redux:
+// set up Redux:
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
-import chat from './reducers'; // our custom Redux reducer
-import { addUser } from './actions'; // one of our custom actions
+import { createStore, applyMiddleware } from 'redux';
+import reducers from './reducers'; // our custom Redux reducer
+// import { addUser } from './actions'; // one of our custom actions
+
+// set up Redux-Saga:
+import createSagaMiddleware from 'redux-saga';
+import handleNewMessage from './sagas';
+import username from './utils/name';
 
 // set up web socket to communicate with network:
-import { setupSocket } from './sockets'
+import setupSocket from './sockets'
 
-const store = createStore(chat);
+const sagaMiddleware = createSagaMiddleware();
 
-store.dispatch(addUser('Me'));
+// create store
+const store = createStore(
+  reducers, // renamed variable from "chat"
+  applyMiddleware(sagaMiddleware) // initialize this middleware
+);
+
+// initialize socket so we can reference it in the sage middleware
+const socket = setupSocket(store.dispatch, username); // (see setupSocket in src/sockets/index.js)
+
+// note: handleNewMessage saga
+sagaMiddleware.run(handleNewMessage, {socket, username});
 
 ReactDOM.render(
   // wrap App in Redux Provider:
@@ -29,3 +44,4 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+// registerServiceWorker();

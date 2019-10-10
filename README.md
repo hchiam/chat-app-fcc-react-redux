@@ -118,3 +118,39 @@ src
 --sockets
 ----index.js
 ```
+
+### Install Redux-Saga
+
+Inside the `chat` folder:
+
+```bash
+npm install redux-saga --save
+```
+
+Redux-Sage handles side-effects for Redux-React. It is a Redux middleware.
+
+Side effects happen because we're using a server that deals with things outside of our functions. We need to handle creating a websocket event to broadcast new message to all clients.
+
+Inside `src` folder, create sagas:
+
+```text
+src
+--sagas
+----index.js
+```
+
+### Use Chance as Username Generator
+
+Inside the `chat` folder:
+
+```bash
+npm install chance --save
+```
+
+Inside `src` folder, create utility:
+
+```text
+src
+--utils
+----name.js
+```
