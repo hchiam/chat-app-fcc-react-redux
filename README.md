@@ -8,6 +8,8 @@ For reference, here's Beau Carnes' repo: <https://github.com/beaucarnes/fcc-proj
 
 ## Table of Contents
 
+[Quick Review](https://github.com/hchiam/chat-app-fcc-react-redux#Quick-Review)
+
 [Major Pieces](https://github.com/hchiam/chat-app-fcc-react-redux#Major-Pieces)
 
 [Major Steps](https://github.com/hchiam/chat-app-fcc-react-redux#Major-Steps)
@@ -28,8 +30,6 @@ For reference, here's Beau Carnes' repo: <https://github.com/beaucarnes/fcc-proj
 
 * [8) Run Backend Server at the Same Time](https://github.com/hchiam/chat-app-fcc-react-redux#8-Run-Backend-Server-at-the-Same-Time)
 
-[Quick Review](https://github.com/hchiam/chat-app-fcc-react-redux#Quick-Review)
-
 ## Major Pieces
 
 * server: Node.js
@@ -37,6 +37,10 @@ For reference, here's Beau Carnes' repo: <https://github.com/beaucarnes/fcc-proj
 * client-server communication: WebSockets
 * to [manage data](https://blog.logrocket.com/why-use-redux-reasons-with-clear-examples-d21bffd5835/): Redux
 * to manage side-effects: Redux-Saga
+
+**Client entry point file** is [chat/src/index.js](https://github.com/hchiam/chat-app-fcc-react-redux/blob/master/chat/src/index.js). There is more than one `index.js` depending on folder context, so make sure you're using the right one.
+
+**Server entry point file** is [chat/server/app.js](https://github.com/hchiam/chat-app-fcc-react-redux/blob/master/chat/server/app.js). That's `app.js`, not `App.js`.
 
 ## Major Steps
 
@@ -206,7 +210,7 @@ node app.js
 
 To get all dependencies, run `npm install` inside the `chat` folder.
 
-Run client (`chat` folder):
+Run client (`chat/src` folder):
 
 * `npm start`
 
