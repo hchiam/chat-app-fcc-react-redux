@@ -6,6 +6,8 @@ Learning to build a chat app with React and Redux, using a [Free Code Camp tutor
 
 For reference, here's Beau Carnes' repo: <https://github.com/beaucarnes/fcc-project-tutorials/tree/master/chat>
 
+(Another related repo: <https://github.com/hchiam/learning-redux>)
+
 ## Table of Contents
 
 [Quick Review](https://github.com/hchiam/chat-app-fcc-react-redux#Quick-Review)
